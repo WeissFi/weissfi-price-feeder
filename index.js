@@ -5,7 +5,7 @@ const Pusher = require('pusher');
 const { PriceServiceConnection } = require("@pythnetwork/price-service-client");
 
 // Define your price IDs (Replace with actual IDs)
-const priceIds = ["0x23d7315113f5b1d3ba7a83604c44b94d79f4fd69af77f804fc7f920a6dc65744", "0x6120ffcf96395c70aa77e72dcb900bf9d40dccab228efca59a17b90ce423d5e8", "0xeba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341"];
+const priceIds = ["0x23d7315113f5b1d3ba7a83604c44b94d79f4fd69af77f804fc7f920a6dc65744", "0x6120ffcf96395c70aa77e72dcb900bf9d40dccab228efca59a17b90ce423d5e8", "0xeba0732395fae9dec4bae12e52760b35fc1c5671e2da8b449c9af4efe5d54341", "0x2b529621fa6e2c8429f623ba705572aa64175d7768365ef829df6a12c9f365f4"];
 
 // Initialize Express app
 const app = express();
